@@ -22,7 +22,7 @@ repository               : "danishfurkh/Blog"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "danish.jpg"
+  avatar           : "images/danish.jpg"
   name             : "D.F. Dar"
   pronouns         : # example: "she/her"  
   bio              : "I am a dedicated researcher specializing in strong field physics. My work revolves around investigating the profound effects and intricate dynamics that occur when matter interacts with intense laser fields. I am passionate about uncovering the fundamental principles underlying these phenomena and pushing the boundaries of our understanding."
