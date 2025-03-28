@@ -37,7 +37,7 @@ author:
   impactstory      : # URL
   orcid            : "http://orcid.org/0000-0003-4323-1135"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : "https://www.researchgate.net/profile/Danish-Dar"
   scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57219532607&origin=recordpage"
 
@@ -59,7 +59,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "https://www.linkedin.com/in/danish-furekh-dar-671a60202"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
