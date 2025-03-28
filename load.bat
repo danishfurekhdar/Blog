@@ -1,23 +1,25 @@
 @echo off
-REM Change to your local blog directory
 cd /d "C:\Users\furkh\Documents\MyBlog"
 
-REM Initialize Git (only runs if not already a repo)
-git init
+REM Initialize git only if .git doesn't exist
+IF NOT EXIST ".git" (
+    git init
+    git remote add origin https://github.com/danishfurkh/Blog.git
+) ELSE (
+    echo Git repo already initialized.
+)
 
-REM Add remote origin (skip if already set, or change to 'set-url' if needed)
-git remote add origin https://github.com/danishfurkh/Blog.git
-
-REM Add all files
-git add .
-
-REM Commit changes
-git commit -m "Initial commit: upload full blog directory"
-
-REM Set main branch
+REM Set main branch just in case
 git branch -M main
 
+REM Pull remote content and rebase
+git pull --rebase origin main
+
+REM Stage and commit changes
+git add .
+git commit -m "Upload/update full blog directory"
+
 REM Push to GitHub
-git push -u origin main
+git push origin main
 
 pause
