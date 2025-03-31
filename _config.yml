@@ -14,7 +14,7 @@ title_separator          : "-"
 name                     : &name "Danish"
 description              : &description "personal description"
 url                      : "https://danishfurekhdar.github.io"
-baseurl                  : "/Blog"
+baseurl                  : ""
 repository               : "danishfurekhdar/Blog"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
